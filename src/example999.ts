@@ -7,7 +7,7 @@ export function example999(code: string, fileName: string, astFileName: string):
     const node = ts.createSourceFile(fileName, code, ts.ScriptTarget.Latest)
     const printer = ts.createPrinter({ newLine: ts.NewLineKind.LineFeed })
     
-    fs.writeFileSync(astFileName, printer.printNode(ts.EmitHint.Unspecified, node, node))
+    fs.writeFileSync(astFileName, printer.printNode(ts.EmitHint.ImportTypeNodeAttributes, node, node))
         
     return 0
 }

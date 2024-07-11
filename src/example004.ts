@@ -9,5 +9,5 @@
 */
 export function example004(aSide: number, bSide: number, cSide: number): number {
     const s = (aSide + bSide + cSide) / 2
-    return Math.sqrt(s * (s - aSide) * (s - bSide) * (cSide))
+    return Math.sqrt(s * (s - aSide) * (s - bSide) * (s - cSide))
 }

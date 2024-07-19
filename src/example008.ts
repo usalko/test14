@@ -1,7 +1,8 @@
 // src/example008.ts
 
-export function example008(initialYear: number, finalYear: number): any {
-    let result = null
-
-    return result
+export function example008(randomNumber: number, userGuess: string): string {
+    if (randomNumber === parseInt(userGuess)) {
+        return 'Good Work'
+    }
+    return 'Not matched'
 }

@@ -11,8 +11,12 @@ describe('#example013', () => {
     it(`define user variable with name ${correctUserInput}`, () => {
         expect(example013(correctUserInput, 1)).equal('{"correctVariableName123":1}')
     })
-    // it(`test incorrect user input ${incorrectUserInput}`, () => {
-    //     expect(example013(incorrectUserInput, 1)).to.throw(`Invalid user input ${incorrectUserInput}`)
-    // })
-
+    it(`test incorrect user input ${incorrectUserInput}`, () => {
+        // bind right context (to handle throw error) // https://stackoverflow.com/questions/21587122/mocha-chai-expect-to-throw-not-catching-thrown-errors
+        expect(() => example013(incorrectUserInput, 1)).to.throw(`Invalid user input ${incorrectUserInput}`)
+    })
+    // const model: any = {
+    //     url: ''
+    // }
+    // expect(() => model.get('z')).to.throw('model.get is not a function')
 })

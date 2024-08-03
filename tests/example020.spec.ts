@@ -9,13 +9,13 @@ describe('#example020', () => {
     it(`Input numbers are 19 -1 #1`, () => {
         expect(example020('19', '-1')).equal(true)
     })
-    it(`Input numbers are 22 12 #1`, () => {
+    it(`Input numbers are 22 12 #2`, () => {
         expect(example020('22', '12')).equal(false)
     })
-    it(`Input numbers are -1 -2 #1`, () => {
+    it(`Input numbers are -1 -2 #3`, () => {
         expect(example020('-1', '-2')).equal(false)
     })
-    it(`Input numbers are 19x w1 #1`, () => {
+    it(`Input numbers are 19x w1 #4`, () => {
         expect(example020('19x', 'w1')).equal(false)
     })
 })

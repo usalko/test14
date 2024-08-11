@@ -13,4 +13,7 @@ describe('#example028', () => {
     it(`Input numbers are 70 80 #1`, () => {
         expect(example028(70, 80, [50, 99])).equal(true)
     })
+    it(`Input numbers are 100 101 #1`, () => {
+        expect(example028(100, 101, [50, 99])).equal(false)
+    })
 })

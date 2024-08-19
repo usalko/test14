@@ -9,7 +9,7 @@ describe('#example036', () => {
     it(`Input numbers are 134 235 892 #1`, () => {
         expect(example036(134, 235, 892)).equal(false)
     })
-    it(`Input numbers are 111 251 981 #1`, () => {
+    it(`Input numbers are 111 251 981 #2`, () => {
         expect(example036(111, 251, 981)).equal(true)
     })
 })

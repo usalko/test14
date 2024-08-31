@@ -9,7 +9,7 @@ describe('#example048', () => {
     it(`Input string is "dad" #1`, () => {
         expect(example048('dad')).equal('dad')
     })
-    it(`Input string is "recover" #1`, () => {
+    it(`Input string is "recover" #2`, () => {
         expect(example048('recover')).equal('revocer')
     })
 })

@@ -10,10 +10,10 @@ describe('#example058', () => {
     it(`Input string is "Just a fire" #1`, () => {
         expect(example058('Just a fire')).equal('Just a fireireireire')
     })
-    it(`Input string is "aaa" #1`, () => {
+    it(`Input string is "aaa" #2`, () => {
         expect(example058('aaa')).equal('aaaaaaaaaaaa')
     })
-    it(`Input string is "" #1`, () => {
+    it(`Input string is "" #3`, () => {
         expect(() => example058('')).to.throw('Invalid input string, the string length must be more or equal 3.')
     })
 })

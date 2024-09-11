@@ -9,10 +9,10 @@ describe('#example059', () => {
     it(`Input string is "Sunny day" #1`, () => {
         expect(example059('Sunny day')).equal('Sunn')
     })
-    it(`Input string is "Lovely day" #1`, () => {
+    it(`Input string is "Lovely day" #2`, () => {
         expect(example059('My heart day')).equal('My hea')
     })
-    it(`Input string is "" #1`, () => {
+    it(`Input string is "" #3`, () => {
         expect(example059('')).equal('')
     })
 })

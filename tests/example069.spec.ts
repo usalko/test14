@@ -14,9 +14,9 @@ describe('#example069', () => {
         expect(example069([0, 0, 0])).equal(0)
     })
     it(`Input array is "[1,1,1,1]" #3`, () => {
-        expect(() => example069([1, 1, 1, 1])).to.throw('Given array of integers of should have length 3')
+        expect(() => example069([1, 1, 1, 1])).to.throw('Given array of integers should have length 3')
     })
     it(`Input array is "[1,1]" #4`, () => {
-        expect(() => example069([1, 1])).to.throw('Given array of integers of should have length 3')
+        expect(() => example069([1, 1])).to.throw('Given array of integers should have length 3')
     })
 })

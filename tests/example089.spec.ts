@@ -16,4 +16,13 @@ describe('#example089', () => {
     it(`Input expression is "5 $ 2 = 10" #3`, () => {
         expect(example089('5 $ 2 = 10')).equal('*')
     })
+    it(`Input expression is " $ 2 = 10" #4`, () => {
+        expect(() => example089(' $ 2 = 10')).to.throw('The available expression form is number $ number = number but input expression is  $ 2 = 10')
+    })
+    it(`Input expression is "2 = 10" #5`, () => {
+        expect(() => example089('2 = 10')).to.throw('The available expression form is number $ number = number but input expression is 2 = 10')
+    })
+    it(`Input expression is "" #6`, () => {
+        expect(() => example089('')).to.throw('The available expression form is number $ number = number but input expression is ')
+    })
 })

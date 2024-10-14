@@ -11,9 +11,9 @@ describe('#example091', () => {
         expect(example091([3,2,1,5,6,4])).equal(12)
     })
     it(`Input array is [] #2`, () => {
-        expect(example091([])).equal(0)
+        expect(() => example091([])).to.throw('No one iteration in subSequenceWise iterator')
     })
     it(`Input array is [3,1,2,31,32,1] #3`, () => {
-        expect(example091([3,1,2,31,32,1])).equal(68)
+        expect(example091([3,1,2,31,32,1])).equal(66)
     })
 })

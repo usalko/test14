@@ -1,35 +1,30 @@
 // src/example091.ts
 
-enum Example091Event {
-    StartNewSequence,
-    Stop,
-    UpdateCurrentSum,
+const subSequenceWise = <T>(array: T[], subSequenceWiseStep: (sequence: T[]) => void) => {
+    let partition: T[] = []
+    for (let i = 0; i < array.length; i++) {
+        const current = array[i]
+        partition.push(current)
+
+        const next: T | undefined = (i + 1) < array.length ? array[i + 1]: undefined
+        if (next === undefined || next! < current) {
+            subSequenceWiseStep(partition)
+            partition = []
+        }
+    }
 }
 
-const detectEvent = (i: number, inputArray: number[]): Example091Event => {
-    if (i < inputArray.length) {
-        if (i === 0 || inputArray[i - 1] > inputArray[i]) {
-            return Example091Event.StartNewSequence
-        }
-        return Example091Event.UpdateCurrentSum
-    }
-    return Example091Event.Stop 
-} 
-
 export function example091(inputArray: number[]): number {
-    let maxSum = 0
-    let prevElement = undefined
-    let currentSum = 0
-
-    for (let i = 0; i <= inputArray.length; i++) {
-        switch (detectEvent(i, inputArray)) {
-            case Example091Event.StartNewSequence:
-                break;
-            case Example091Event.UpdateCurrentSum:
-                break;
-            case Example091Event.Stop:
-                break;
+    let maxSum: number | undefined = undefined
+    subSequenceWise(inputArray, (sequence: number[]) => {
+        const sequenceSum = sequence.reduce((prev, curr) => prev+curr)
+        if (maxSum === undefined || sequenceSum > maxSum) {
+            maxSum = sequenceSum
         }
+    })
+    if (maxSum === undefined) {
+        throw 'No one iteration in subSequenceWise iterator'
     }
-    return 0;
+
+    return maxSum
 }

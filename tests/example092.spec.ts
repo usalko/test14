@@ -9,13 +9,13 @@ describe('#example092', () => {
     it(`Input array is [12, 1, 18, 2, 21, 90] #1`, () => {
         expect(example092([12, 1, 18, 2, 21, 90])).equal(69)
     })
-    it(`Input array is [] #1`, () => {
+    it(`Input array is [] #2`, () => {
         expect(() => example092([])).to.throw(`An array should has minimal length 2`)
     })
-    it(`Input array is [1] #1`, () => {
+    it(`Input array is [1] #3`, () => {
         expect(() => example092([1])).to.throw(`An array should has minimal length 2`)
     })
-    it(`Input array is [1, 1, 18, 2, 21, 90] #1`, () => {
+    it(`Input array is [1, 1, 18, 2, 21, 90] #4`, () => {
         expect(example092([12, 1, 18, 2, 21, 90])).equal(69)
     })
 })

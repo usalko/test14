@@ -1,5 +1,6 @@
 // src/example090.ts
 
+// TODO: rewrite using improved adaptive quickselect (FDS) (@see the paper: https://arxiv.org/abs/1606.00484)
 export function example090(inputArray: number[], k: number): number {
     if (k > 0 && k <= inputArray.length) {
         // Stupid implementation

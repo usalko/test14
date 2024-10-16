@@ -4,7 +4,7 @@
 // TODO: rewrite using same approach as in (FDS) (@see https://arxiv.org/abs/1606.00484)
 export function example094(inputArray: number[]): number {
     if (inputArray.length < 1) {
-        throw 'An array sholud contain at least one element'
+        throw 'An array should contain at least one element'
     }
     // Stupid implementation
     let statistics: [number, number][] = [...inputArray.reduce(

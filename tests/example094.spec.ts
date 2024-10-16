@@ -13,7 +13,7 @@ describe('#example094', () => {
         expect(example094([2, 2, 4, 4, 6, 6])).equal(2)
     })
     it(`Input array is [] #3`, () => {
-        expect(() => example094([])).to.throw('An array sholud contain at least one element')
+        expect(() => example094([])).to.throw('An array should contain at least one element')
     })
     it(`Input array is [10] #4`, () => {
         expect(example094([10])).equal(10)

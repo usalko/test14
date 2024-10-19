@@ -12,7 +12,7 @@ describe('#example098', () => {
     it(`Input string is "Respect" #2`, () => {
         expect(example098("Respect")).equal('respect')
     })
-    it(`Input string is "" #2`, () => {
+    it(`Input string is "" #3`, () => {
         expect(example098("")).equal('')
     })
 })

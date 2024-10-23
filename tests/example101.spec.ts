@@ -25,4 +25,10 @@ describe('#example101', () => {
     it(`Input string is "" #6`, () => {
         expect(example101('')).equal(false)
     })
+    it(`Input string is "Не латынь" #7`, () => {
+        expect(example101('Не латынь')).equal(false)
+    })
+    it(`Input string is "看一个男人" #8`, () => {
+        expect(example101('看一个男人')).equal(false)
+    })
 })

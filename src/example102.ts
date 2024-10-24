@@ -2,6 +2,7 @@
 
 
 export function example102(inputArray: number[]): number {
+    //TODO: optimize it
     let result = 0
     for (let i = 0; i < inputArray.length; i++) {
         for (let j = i; j < inputArray.length; j++) {

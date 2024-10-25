@@ -9,10 +9,10 @@ describe('#example103', () => {
     it(`Input number 324 #1`, () => {
         expect(example103(324)).equal(34)
     })
-    it(`Input number -123 #1`, () => {
+    it(`Input number -123 #2`, () => {
         expect(() => example103(-123)).to.throw('Input number should be positive')
     })
-    it(`Input number 0 #1`, () => {
+    it(`Input number 0 #3`, () => {
         expect(() => example103(0)).to.throw('Input number should be greater or equal 10')
     })
 })

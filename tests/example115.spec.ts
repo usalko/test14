@@ -3,20 +3,18 @@ import { expect } from 'chai'
 import { example115 } from '../src/example115'
 
 console.log(`
-Write a JavaScript program to find the number of times to replace a given number with the sum of its digits.
-This is until it converts to a single-digit number.
+Write a JavaScript program to check whether a matrix is a diagonal matrix or not.
+In linear algebra, a diagonal matrix is a matrix in which the entries outside the main diagonal
+are all zero (the diagonal from the upper left to the lower right). 
+Example:
+[1, 0, 0], [0, 2, 0], [0, 0, 3] ]) = true
+[1, 0, 0], [0, 2, 3], [0, 0, 3] ]) = false
 `)
 describe('#example115', () => {
-    it(`Input number is 123 #1`, () => {
-        expect(example115(123)).equal(1)
+    it(`Input matrix is [ [1, 0, 0], [0, 2, 0], [0, 0, 3] ] #1`, () => {
+        expect(example115([ [1, 0, 0], [0, 2, 0], [0, 0, 3] ])).equal(true)
     })
-    it(`Input number is 999 #2`, () => {
-        expect(example115(999)).equal(2)
-    })
-    it(`Input number is 0 #3`, () => {
-        expect(example115(0)).equal(0)
-    })
-    it(`Input number is -12 #4`, () => {
-        expect(example115(-12)).equal(1)
+    it(`Input matrix is [ [1, 0, 0], [0, 2, 0], [0, 0, 3] ] #2`, () => {
+        expect(example115([ [1, 0, 0], [0, 2, 3], [0, 0, 3] ])).equal(false)
     })
 })

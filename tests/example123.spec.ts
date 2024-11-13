@@ -24,4 +24,7 @@ describe('#example123', () => {
     it(`Input array is [123456789, 987654321], input number is 9 #6`, () => {
         expect(example123([123456789, 987654321], 9)).equal(true)
     })
+    it(`Input array is [22], input number is 9 #5`, () => {
+        expect(example123([22], 9)).equal(false)
+    })
 })

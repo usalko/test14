@@ -1,6 +1,6 @@
 // tests/example136.spec.ts
 import { expect } from 'chai'
-import { example136v1, example136v2, example136 } from '../src/example136'
+import { example136 } from '../src/example136'
 
 console.log(`
 Write a JavaScript program to replace the first digit in a string (should have at least one digit) with the $ character.

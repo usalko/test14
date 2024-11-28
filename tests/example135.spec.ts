@@ -7,13 +7,13 @@ Write a JavaScript program to remove all characters from a given string that app
 `)
 describe('#example135', () => {
     //abcdefghijklmnopqrstuvwxyz
-    it(`Input input string is "avatar" #1`, () => {
+    it(`Input string is "avatar" #1`, () => {
         expect(example135v3("avatar")).equal("vtr")
     })
-    it(`Input input string is "avatar" #2`, () => {
+    it(`Input string is "avatar" #2`, () => {
         expect(example135v2("avatar")).equal("vtr")
     })
-    it(`Input input string is "avatar" #3`, () => {
+    it(`Input string is "avatar" #3`, () => {
         expect(example135v1("avatar")).equal("vtr")
     })
 })

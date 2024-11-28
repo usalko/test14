@@ -9,10 +9,10 @@ When the numerator and the denominator are both positive, the fraction is called
 if the numerator is less than the denominator, and improper otherwise.
 `)
 describe('#example133', () => {
-    it(`Input input fraction is 3/4 #1`, () => {
+    it(`Input fraction is 3/4 #1`, () => {
         expect(example133(3, 4)).equal(true)
     })
-    it(`Input input fraction is 4/3 #2`, () => {
+    it(`Input fraction is 4/3 #2`, () => {
         expect(example133(4, 3)).equal(false)
     })
 })

@@ -8,7 +8,7 @@ a turns into z, b turns into y, c turns into x, ..., n turns into m, m turns int
 `)
 describe('#example134', () => {
     //abcdefghijklmnopqrstuvwxyz
-    it(`Input input string is "Alas" #1`, () => {
+    it(`Input string is "Alas" #1`, () => {
         expect(example134("Alas")).equal("Aozh")
     })
 })

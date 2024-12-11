@@ -1,7 +1,7 @@
 // src/example150.ts
 
 
-// Change the capitalization of all letters in a given string
+// swap pairs of adjacent digits of a given integer of even length
 export function example150(inputNumber: number): number {
     const digitArray = inputNumber.toString().split('')
     if (digitArray.length % 2 !== 0) {

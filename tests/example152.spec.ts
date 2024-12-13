@@ -9,6 +9,6 @@ Write a JavaScript program to copy a string to the clipboard.
 describe('#example152', () => {
     const { window } = new JSDOM(`...`)
     it(`Input string is 'text1' #1`, async () => {
-        expect(await example152('text1', window)).equal('text1')
+        expect(await example152('text1', window.navigator)).equal('text1')
     })
 })

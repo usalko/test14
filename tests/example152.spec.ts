@@ -4,6 +4,8 @@ import { example152 } from '../src/example152'
 import { JSDOM } from 'jsdom'
 
 console.log(`Fundamental(ES6)-Part-I
+2. Copy String to Clipboard
+
 Write a JavaScript program to copy a string to the clipboard.
 `)
 describe('#example152', () => {

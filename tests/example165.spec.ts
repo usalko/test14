@@ -9,7 +9,7 @@ Write a JavaScript program to return the minimum-maximum value of an array,
 after applying the provided function to set a comparing rule.
 `)
 describe('#example165', () => {
-    it(`Input string is "大家好" #1`, () => {
-        expect(example165('大家好')).equal(9)
+    it(`Input array is [35, 60, 2, 10, 25, 1], input function is {(x, y) => x - y} #1`, () => {
+        expect(example165([35, 60, 2, 10, 25, 1], (x, y) => x - y)).deep.equal([1, 60])
     })
 })

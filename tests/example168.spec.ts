@@ -9,6 +9,6 @@ Write a JavaScript program to remove specified elements from the left of a given
 `)
 describe('#example168', () => {
     it(`Input array is [3, 5, 3], input array for remove elements [3] #1`, () => {
-        expect(example168([3, 5, 3], [3]).deep.equal([3, 5])
+        expect(example168([3, 5, 3], [3])).deep.equal([3, 5])
     })
 })

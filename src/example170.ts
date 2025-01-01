@@ -1,8 +1,8 @@
 // src/example170.ts
 
 
-// Remove specified elements from the left of a given array of elements.
-export function example170<T>(inputArray: T[], elements: T[]): T[] {
-    return []
+// Extend a 3-digit color code to a 6-digit color code.
+export function example170<T>(inputString: string): string {
+    return ''
 }
 

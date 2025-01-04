@@ -12,6 +12,6 @@ describe('#example174', () => {
         expect(example174("Hello world!")).equal("hello world!")
     })
     it(`Input string is "Good buy world!" #2`, () => {
-        expect(example174v2("Good buy world!", true)).equal("gOOD BUY WORLD!")
+        expect(example174v2("Good buy world!".split(''), true)).equal("gOOD BUY WORLD!")
     })
 })

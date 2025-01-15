@@ -2,6 +2,6 @@
 
 
 // Invokes each provided function with the arguments it receives and returns the results.
-export function example186(inputFunction1: (...args: unknown[]) => unknown, ...args: unknown[]): unknown {
-    return inputFunction1(args)
+export function example186<T1, T2>(inputFunctions: ((t1: T1) => T2)[], inputArguments: T1[]): T2[] {
+    return inputFunctions.map((f, index) => f(inputArguments[index]))
 }

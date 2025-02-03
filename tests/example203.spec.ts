@@ -5,7 +5,7 @@ import { example203 } from '../src/example203'
 console.log(`Fundamental(ES6)-Part-I
 53. Initialize 2D Array with Size and Value
 
-Write a JavaScript program to initialize a two-dimensional array of given size and value.
+Write a JavaScript program to initialize a twgit pusho-dimensional array of given size and value.
 `)
 
 describe('#example203', () => {

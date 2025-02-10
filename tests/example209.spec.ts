@@ -10,7 +10,9 @@ Optionally add any additional variables to the arguments beginning.
 `)
 
 describe('#example209', () => {
-    it(`Input function is: (x) => boolean, input context is: 1 #1`, () => {
-        expect(example209((x: any): number => {return x}, 1)).equal(1)
+    it(`Input function is: (x) => boolean, input context is: {id: 1}, input args is 2, 3 #1`, () => {
+        expect(example209((x: number, y: number): number => {
+            return this.id + x + y
+        },{id: 1})(2, 3)).equal(6)
     })
 })

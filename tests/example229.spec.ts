@@ -26,7 +26,7 @@ describe('#example229', () => {
     it(`Input arguments are [1, 2, 3], [1, 2], [1, 2, 3, 4, 5] #4`, () => {
         expect(example229([1, 2, 3], [1, 2], [1, 2, 3, 4, 5])).deep.equal([1, 2, 3, 4, 5])
     })
-    it(`Input arguments are [1, 2, 3], [1, 2], [1, 2, 3, 4, 5] #5`, () => {
+    it(`Input arguments are [1, 2, 3], 'foobar' #5`, () => {
         expect(example229([1, 2, 3], 'foobar')).deep.equal('foobar')
     })
 })

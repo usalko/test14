@@ -1,7 +1,7 @@
-// src/example239.ts
+// src/example240.ts
 
 // nest a given flat array of objects linked to one another recursively.
-export function example239(inputArray: any[]): any[] {
+export function example240(inputArray: any[]): any[] {
     return []
 }
 

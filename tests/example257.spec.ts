@@ -9,7 +9,8 @@ Write a JavaScript program to get all distinct values (from the right side of th
 based on a provided comparator function.
 
 
- - Use Array.prototype.reduceRight() and Array.prototype.some() for an array containing only the last unique occurrence of each value, based on the comparator function, fn.
+ - Use Array.prototype.reduceRight() and Array.prototype.some() for an array containing only the last unique occurrence of each value, 
+   based on the comparator function, fn.
  - The comparator function takes two arguments: the values of the two elements being compared.
 
 `)

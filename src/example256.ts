@@ -4,5 +4,4 @@
 // applying the provided function
 export function example256(inputArray: any[][], inputFunction: (x: any[]) => any): any[] {
     return []
-
-
+}

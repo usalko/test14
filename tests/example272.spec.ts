@@ -17,13 +17,13 @@ describe('#example272', () => {
     it(`Input argument is '1' #1`, () => {
         expect(example272('1')).equal('1st')
     })
-    it(`Input argument is '4' #1`, () => {
+    it(`Input argument is '4' #2`, () => {
         expect(example272('4')).equal('4th')
     })
-    it(`Input argument is '50' #1`, () => {
+    it(`Input argument is '50' #3`, () => {
         expect(example272('50')).equal('50th')
     })
-    it(`Input argument is '123' #1`, () => {
+    it(`Input argument is '123' #4`, () => {
         expect(example272('123')).equal('123rd')
     })
 })

@@ -1,7 +1,7 @@
 // tests/example301.spec.ts
 import { expect } from 'chai'
 import { example301 } from '../src/example301'
-import { writeFileSync } from 'fs';
+import { writeFileSync } from 'fs'
 
 
 console.log(`Fundamental(ES6)-Part-I

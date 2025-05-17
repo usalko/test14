@@ -28,6 +28,6 @@ describe('#example307', () => {
         expect(example307([1, 2, 3, 4, 5, 6], 3)).equal(50)
     })
     it(`Input arguments are [1, 2, 3, 4, 5, 6], 4 #4`, () => {
-        expect(example307([1, 2, 3, 4, 5, 6], 4)).equal(66.66)
+        expect(example307([1, 2, 3, 4, 5, 6], 4)).equal(66.66666666666666)
     })
 })

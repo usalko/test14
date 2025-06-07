@@ -1,6 +1,6 @@
 // tests/example322.spec.ts
 import { expect } from 'chai'
-import { example322, example322v2 } from '../src/example322'
+import { example322} from '../src/example322'
 
 
 console.log(`Fundamental(ES6)-Part-I
@@ -22,9 +22,9 @@ describe('#example322', () => {
         expect(example322(['pen', 'pineapple', 'apple', 'pen'], ',', '&')).equal('pen,pineapple,apple&pen')
     })
     it(`Input arguments are ['pen', 'pineapple', 'apple', 'pen'], ',' #2`, () => {
-        expect(example322(['pen', 'pineapple', 'apple', 'pen'], ',', '&')).equal('pen,pineapple,apple&pen')
+        expect(example322(['pen', 'pineapple', 'apple', 'pen'], ',')).equal('pen,pineapple,apple,pen')
     })
-    it(`Input arguments are 'pen', 'pineapple', 'apple', 'pen' #2`, () => {
-        expect(example322(['pen', 'pineapple', 'apple', 'pen'], ',', '&')).equal('pen,pineapple,apple&pen')
+    it(`Input arguments are ['pen', 'pineapple', 'apple', 'pen'] #3`, () => {
+        expect(example322(['pen', 'pineapple', 'apple', 'pen'])).equal('pen,pineapple,apple,pen')
     })
 })

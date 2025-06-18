@@ -1,6 +1,6 @@
 // tests/example326.spec.ts
 import { expect } from 'chai'
-import { example326, example326v2 } from '../src/example326'
+import { example326 } from '../src/example326'
 
 
 console.log(`Fundamental(ES6)-Part-I

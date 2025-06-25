@@ -22,10 +22,10 @@ describe('#example341', () => {
     it(`Input argument are 5, 3 #2`, () => {
         expect(example341(5, 3)).equal(false)
     })
-    it(`Input argument are 100, 10 #2`, () => {
+    it(`Input argument are 100, 10 #3`, () => {
         expect(example341(100, 10)).equal(true)
     })
-    it(`Input argument are 0, 3 #2`, () => {
+    it(`Input argument are 0, 3 #4`, () => {
         expect(example341(0, 3)).equal(true)
     })
 })

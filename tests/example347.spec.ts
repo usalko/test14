@@ -16,13 +16,13 @@ Write a JavaScript program that returns true if the given string is an absolute 
 `)
 
 describe('#example347', () => {
-    it(`Input arguments is 'https://google.com' #1`, () => {
+    it(`Input argument is 'https://google.com' #1`, () => {
         expect(example347('https://google.com')).equal(true)
     })
-    it(`Input arguments is 'ftp://www.myserver.net' #2`, () => {
+    it(`Input argument is 'ftp://www.myserver.net' #2`, () => {
         expect(example347('ftp://www.myserver.net')).equal(true)
     })
-    it(`Input arguments is '/foo/bar' #3`, () => {
+    it(`Input argument is '/foo/bar' #3`, () => {
         expect(example347('/foo/bar')).equal(false)
     })
 })

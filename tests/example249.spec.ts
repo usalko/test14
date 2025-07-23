@@ -14,10 +14,10 @@ Hashes the input string into a whole number.
 `)
 
 describe('#example249', () => {
-    it(`Input arguments is 'w3r' #1`, () => {
+    it(`Input argument is 'w3r' #1`, () => {
         expect(example249('w3r')).deep.equal(986464758)
     })
-    it(`Input arguments is 'w3r' #1`, () => {
+    it(`Input argument is 'w3r' #1`, () => {
         expect(example249('name')).deep.equal(-3521204949)
     })
 })

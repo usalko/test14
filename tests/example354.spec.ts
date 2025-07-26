@@ -24,10 +24,10 @@ describe('#example354', () => {
     it(`Input argument is 5 #1`, () => {
         expect(example354(5)).deep.equal([5, 4, 3, 2, 1, 0])
     })
-    it(`Input arguments are 7, 3 #1`, () => {
+    it(`Input arguments are 7, 3 #2`, () => {
         expect(example354(7, 3)).deep.equal([7, 6, 5, 4, 3])
     })
-    it(`Input arguments are 9, 0, 2 #1`, () => {
+    it(`Input arguments are 9, 0, 2 #3`, () => {
         expect(example354(9, 0, 2)).deep.equal([8, 6, 4, 2, 0])
     })
 })

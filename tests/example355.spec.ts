@@ -19,7 +19,7 @@ describe('#example355', () => {
     it(`Input argument is [1, 2, 3] #1`, () => {
         expect(example355([1, 2, 3])).deep.equal([1, 2])
     })
-    it(`Input argument is [0, -1, -2] #1`, () => {
+    it(`Input argument is [0, -1, -2] #2`, () => {
         expect(example355([0, -1, -2])).deep.equal([0, -1])
     })
 })

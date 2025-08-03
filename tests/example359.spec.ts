@@ -1,6 +1,6 @@
-// tests/example259.spec.ts
+// tests/example359.spec.ts
 import { expect } from 'chai'
-import { example259, } from '../src/example259'
+import { example359, } from '../src/example359'
 
 
 console.log(`Fundamental(ES6)-Part-II
@@ -17,11 +17,11 @@ Write a JavaScript program to calculate the Hamming distance between two values.
 
 `)
 
-describe('#example259', () => {
+describe('#example359', () => {
     it(`Input arguments are: 2, 3 #1`, () => {
-        expect(example259(2, 3)).equal(1)
+        expect(example359(2, 3)).equal(1)
     })
     it(`Input arguments are: 5, 3 #1`, () => {
-        expect(example259(5, 3)).equal(2)
+        expect(example359(5, 3)).equal(2)
     })
 })

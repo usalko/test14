@@ -12,6 +12,9 @@ Returns the lowercased constructor name of value,
 "undefined" or "null" if value is undefined or null.
 
 
+ - Return 'undefined' or 'null' if the value is undefined or null.
+ - Otherwise, use Object.prototype.constructor.name to get the name of the constructor.
+
 
 `)
 

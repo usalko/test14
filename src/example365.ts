@@ -1,0 +1,7 @@
+// src/example365.ts
+
+// get the standard deviation of an array of numbers.
+export function example365(inputArray: number[], inputOption: boolean = false): bumber {
+    return 0.
+}
+

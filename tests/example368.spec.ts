@@ -17,7 +17,7 @@ Write a JavaScript program to log the name of a function.
 `)
 
 describe('#example368', () => {
-    it(`Input argument id: Math.max #1`, () => {
+    it(`Input argument is: Math.max #1`, () => {
         expect(example368(Math.max)).equal('max')
     })
 })

@@ -1,7 +1,5 @@
 // src/example370.ts
 
-import { debug } from "console";
-
 
 const MS_IN_SECONDS = 1000
 const MS_IN_MINUTE = 60 * MS_IN_SECONDS
@@ -17,6 +15,6 @@ export function example370(inputMilliseconds: number): string {
         (parts: number[], factor: number, i: number) => i === 0 ?
             [Math.floor(parts[i] / FACTORS[i]), parts[i] % FACTORS[i]] :
             [...parts.slice(0, -1), Math.floor(parts[i] / FACTORS[i]), parts[i] % FACTORS[i]],
-        [inputMilliseconds]).slice(0, -1).map((x: number, i: number) => x === 1 ? `${x} ${TIME_PARTS[i].slice(0, -1)}`: x === 0 ? '': `${x} ${TIME_PARTS[i]}` ).filter((x: string) => x !== '').join(', ')
+        [inputMilliseconds]).slice(0, -1).map((x: number, i: number) => x === 1 ? `${x} ${TIME_PARTS[i].slice(0, -1)}` : x === 0 ? '' : `${x} ${TIME_PARTS[i]}`).filter((x: string) => x !== '').join(', ')
 }
 

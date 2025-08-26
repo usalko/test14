@@ -21,7 +21,7 @@ describe('#example370', () => {
     it(`Input argument is: 1001 #1`, () => {
         expect(example370(1001)).equal('1 second, 1 millisecond')
     })
-    it(`Input argument is: 34325055574 #1`, () => {
+    it(`Input argument is: 34325055574 #2`, () => {
         expect(example370(34325055574)).equal('397 days, 6 hours, 44 minutes, 15 seconds, 574 milliseconds')
         // TODO: mailto error expect(example370(34325055574)).equal('397 days, 6 hours, 9 minutes, 15 seconds, 574 milliseconds')
     })

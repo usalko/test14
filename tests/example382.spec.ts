@@ -19,6 +19,6 @@ Returns the remaining elements of the array.
 
 describe('#example382', () => {
     it(`Input arguments are [1, 2, 3, 4], (n: any) => n < 3 #1`, () => {
-        expect(example382( [1, 2, 3, 4], (n: any) => n < 3)).deep.equal([1, 2])
+        expect(example382([1, 2, 3, 4], (n: any) => n < 3)).deep.equal([1, 2])
     })
 })

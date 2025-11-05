@@ -1,5 +1,5 @@
 // tests/example385.spec.ts
-import { expect } from 'chai'
+import { assert, expect } from 'chai'
 import { example385, } from '../src/example385'
 
 
@@ -18,5 +18,7 @@ describe('#example385', () => {
     it(`Input arguments 1000, () => string #1`, () => {
         const currentTimeMillis = Date.now()
         expect(example385(1000, () => 'later')).equal('later')
+        const executionTime = Date.now() - currentTimeMillis
+        assert.isTrue(executionTime > 1000)
     })
 })

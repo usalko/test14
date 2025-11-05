@@ -2,6 +2,6 @@
 
 // invokes the provided function after a few milliseconds
 export function example385(timeout: number, fn: any): any {
-    return setTimeout(timeout, )
+    return setTimeout(fn, timeout)
 }
 

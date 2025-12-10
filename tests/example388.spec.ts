@@ -1,4 +1,4 @@
-// tests/example387.spec.ts
+// tests/example388.spec.ts
 import { assert, expect } from 'chai'
 import { example388 } from '../src/example388'
 

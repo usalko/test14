@@ -14,7 +14,7 @@ Write a JavaScript program that returns true if the provided predicate function 
 
 describe('#example395', () => {
     it(`Input arguments are: [0, 1, 2, 0], x => x >= 2 #1`, () => {
-        expect(example395([0, 1, 2, 0], x => x >= 2)).eq(true)
+        expect(example395([0, 1, 2, 0], (x: any) => x >= 2)).eq(true)
     })
     it(`Input argument is: [0, 0, 1, 0] #2`, () => {
         expect(example395([0, 0, 1, 0])).eq(true)

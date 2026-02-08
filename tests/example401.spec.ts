@@ -1,6 +1,6 @@
-// tests/example398.spec.ts
+// tests/example401.spec.ts
 import { assert, expect } from 'chai'
-import { example400 } from '../src/example400'
+import { example401 } from '../src/example401'
 
 
 console.log(`Fundamental(ES6)-Part-II
